@@ -1,10 +1,10 @@
-# 📱 ONGC Logger App
+## ONGC Logger App
 
 An internal Android application for ONGC employees to efficiently log daily field activities, manage operations, and track reports — all from their mobile devices.
 
 ---
 
-## 🚀 Features
+## Features
 
 - 📝 Log field activities with automatic timestamps  
 - 📍 Tag entries with location, section, and employee details  
@@ -15,7 +15,7 @@ An internal Android application for ONGC employees to efficiently log daily fiel
 
 ---
 
-## 🏗️ Tech Stack
+## Tech Stack
 - **Language:** Kotlin, Java  
 - **Architecture:** MVVM + Jetpack  
 - **UI:** Jetpack Compose, XML layouts
@@ -25,7 +25,7 @@ An internal Android application for ONGC employees to efficiently log daily fiel
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```plaintext
 ongc-logger-app/
