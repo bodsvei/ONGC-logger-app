@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="8dp"
+    android:layout_marginVertical="4dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="12dp">
+
+        <!-- Checkbox -->
+
+        <!-- Serial Number -->
+
+        <!-- File Icon -->
+        <ImageView
+            android:id="@+id/fileIcon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="12dp"
+            android:contentDescription="File Icon"
+            android:cropToPadding="true" />
+
+        <!-- Horizontal Info Row -->
+        <LinearLayout
+            android:layout_width="111dp"
+            android:layout_height="81dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:baselineAligned="true"
+            android:divider="?android:attr/dividerVertical"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingEnd="8dp"
+            android:showDividers="middle">
+
+            <!-- File Name -->
+            <TextView
+                android:id="@+id/serialNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="6dp"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="Serial Number"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <!-- Owner Name -->
+            <!-- File Type -->
+            <TextView
+                android:id="@+id/ownerName"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="Owner"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/fileType"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginStart="8dp"
+                android:text="File type"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp" />
+
+            <!-- ONGC Asset no, Owner, cpf, dept, HOST NAME, details, make, model, serial number.  -->
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Open" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
